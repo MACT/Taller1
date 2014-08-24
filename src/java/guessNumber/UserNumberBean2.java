@@ -45,11 +45,11 @@ public class UserNumberBean2 implements Serializable{
         session.invalidate();
         
 
-        return "Yay! You got it!";
+        return "Yay! Ya lo tienes!";
     } else {
 
-        return "<p>Sorry, " + userNumber + " isn't it.</p>"
-                + "<p>Guess again...</p>";
+        return "<p>Lo siento, " + userNumber + " No es.</p>"
+                + "<p>Intenta de nuevo...</p>";
     }
 }
     /**
@@ -58,7 +58,7 @@ public class UserNumberBean2 implements Serializable{
     public UserNumberBean2() {
         Random randomGR= new Random();
         randomInt = new Integer(randomGR.nextInt(10));
-        System.out.println("Duke's number: "+randomInt);
+        System.out.println("El numero de Duke: "+randomInt);
     }
     
 }
