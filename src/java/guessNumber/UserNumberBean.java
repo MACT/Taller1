@@ -6,15 +6,12 @@
 
 package guessNumber;
 
-import java.awt.PageAttributes;
 import java.io.Serializable;
 import java.util.Random;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
 import javax.servlet.http.HttpSession;
-import javax.swing.text.html.HTML;
-import org.omg.IOP.TAG_ALTERNATE_IIOP_ADDRESS;
 
 /**
  *
